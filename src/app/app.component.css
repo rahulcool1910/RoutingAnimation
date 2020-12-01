@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+.main {
+  height: 50px;
+  width: 100vw;
+  background-color: red;
+  position: relative;
+}
+
+.inner {
+  /* position: absolute; */
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+}
+
+.h1 {
+  background-color: blue;
+}
+.h2 {
+  background-color: green;
+}
+.h3 {
+  background-color: orange;
+}
+.h4 {
+  background-color: tomato;
+}
+
+.present {
+  height: 100%;
+  width: 25%;
+  background-color: greenyellow;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  transition: all 1s;
+}
